@@ -26,3 +26,36 @@ body{
     font-size: 2rem;
     color: #555;
 }
+.task-input{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.task-input input{
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.2s ease;
+}
+.task-input input:focus{
+    border-color: #007bff;
+    outline: none;
+}
+.task-input button{
+    padding: 12px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+.task-input button:hover{
+    background-color: #0056b3;
+}
+
