@@ -81,3 +81,30 @@ body{
     background-color: #007bff;
     color: antiquewhite;
 }
+
+.task-list{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.task-item{
+    background-color: white;
+    padding: 14px 16px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.task-item:hover{
+    transform: translateY(-2px);
+}
+.task-item.completed{
+    text-decoration: line-through;
+    color: #777;
+    opacity: 0.8;
+}
+
