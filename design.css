@@ -108,3 +108,11 @@ body{
     opacity: 0.8;
 }
 
+.footer{
+    margin-top: auto;
+    text-align: center;
+    font-size: 0.9rem;
+    color:#555;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
